@@ -19,8 +19,14 @@ public class AnswerController {
 
     @RequestMapping(value = "/magic", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
-    public Answer getAnswer(@RequestBody @Valid String question) {
-
+    public Answer getAnswer(@RequestBody(required = false) String question) {
+        
+        // if user doesnt provide a question
+        if (question == null || question == "") {
+            return new Answer(idCounter++, "");
+        }
+        
+        
         return new Answer(idCounter++, question);
 
     }
