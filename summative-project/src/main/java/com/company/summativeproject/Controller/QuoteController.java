@@ -1,4 +1,4 @@
-package com.company.summativeproject.controller;
+package com.company.summativeproject.Controller;
 
 import com.company.summativeproject.Model.Quote;
 import org.springframework.web.bind.annotation.RequestMapping;

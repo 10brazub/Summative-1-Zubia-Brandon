@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5ab2aec-afd7-4f35-b430-4e7a2c62df4a" name="Changes" comment="Removed unneeded variable">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/AnswerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/QuoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/QuoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Definition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/AnswerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/AnswerControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/DefinitionControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/DefinitionControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/QuoteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/QuoteControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +160,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

@@ -12,10 +12,6 @@ public class Answer {
     private String answer;
 
 
-
-
-
-
     //Possible answers of the 8 ball stored in a list
     String[] answers = {"It is certain.", "Without a doubt.", "Yes, definitely.", "You may rely on it.", "As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes.", "Reply hazy, try again."};
 
