@@ -42,7 +42,7 @@ public class AnswerControllerTest {
                             .content(inputJson)
                             .contentType(MediaType.APPLICATION_JSON))
                 .andDo(print())
-                .andExpect(status().isCreated());
+                .andExpect(status().isOk());
 
     }
 
