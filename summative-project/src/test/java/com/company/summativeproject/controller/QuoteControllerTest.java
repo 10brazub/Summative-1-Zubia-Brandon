@@ -20,8 +20,6 @@ public class QuoteControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-    private ObjectMapper objectMapper = new ObjectMapper();
-
     @Test
     public void shouldReturnOkStatus() throws Exception {
 
