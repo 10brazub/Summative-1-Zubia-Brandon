@@ -1,5 +1,7 @@
-package com.company.summativeproject.controller;
+package com.company.summativeproject.Controller;
 
+import com.company.summativeproject.Controller.AnswerController;
+import com.company.summativeproject.Model.Answer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;

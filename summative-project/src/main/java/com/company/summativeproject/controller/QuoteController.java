@@ -1,12 +1,10 @@
 package com.company.summativeproject.controller;
 
-import com.company.summativeproject.models.Quote;
+import com.company.summativeproject.Model.Quote;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;

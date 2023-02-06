@@ -22,7 +22,8 @@ public class Answer {
     Random rand = new Random();
     int index = rand.nextInt(answers.length);
 
-
+    public Answer() {
+    }
 
     public Answer(int id, String question) {
         this.id = id;
