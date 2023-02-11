@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ab2aec-afd7-4f35-b430-4e7a2c62df4a" name="Changes" comment="Removed unneeded variable">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="a5ab2aec-afd7-4f35-b430-4e7a2c62df4a" name="Changes" comment="updated imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/AnswerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/DefinitionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/DefinitionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/QuoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/QuoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Definition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/AnswerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/AnswerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/DefinitionControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/DefinitionControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/QuoteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/test/java/com/company/summativeproject/Controller/QuoteControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/SummativeProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/SummativeProjectApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675662785965</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated imports">
+      <created>1675668045060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675668045060</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +188,7 @@
     <MESSAGE value="Added quote api" />
     <MESSAGE value="Added test for answer controller" />
     <MESSAGE value="Removed unneeded variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unneeded variable" />
+    <MESSAGE value="updated imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated imports" />
   </component>
 </project>

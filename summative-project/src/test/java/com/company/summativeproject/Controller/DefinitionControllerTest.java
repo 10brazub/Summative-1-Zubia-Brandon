@@ -15,18 +15,14 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @WebMvcTest(DefinitionController.class)
 public class DefinitionControllerTest {
-    // Wiring in the MockMvc object
     @Autowired
     MockMvc mockMvc;
 
-    // ObjectMapper used to convert Java objects to JSON and vice versa
     private ObjectMapper mapper = new ObjectMapper();
 
 
-    // Testing GET /records
     @Test
     public void shouldReturnDefinitionInCollection() throws Exception {
-
 
 
         // ACT

@@ -4,7 +4,6 @@ import com.company.summativeproject.Model.Quote;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -13,10 +12,10 @@ import java.util.Random;
 public class QuoteController {
 
     private static List<Quote> quoteList;
+    private static int idCounter = 0;
 
     public QuoteController() {
 
-        int idCounter = 0;
         Quote quote1 = new Quote(idCounter++, "Emily Dickinson", "That it will never come again is what makes life so sweet.");
         Quote quote2 = new Quote(idCounter++, "George Eliot", "It is never to late to be what you might have been.");
         Quote quote3 = new Quote(idCounter++, "John Steinbeck", "Ideas are like rabbits. You get a couple and learn how to handle them, and pretty soon you have a dozen.");
@@ -34,8 +33,8 @@ public class QuoteController {
     @RequestMapping(value = "/quote", method = RequestMethod.GET)
     public static Quote getQuoteOfTheDay(){
 
-        int randomID = new Random().nextInt(quoteList.size());
-        return quoteList.get(randomID);
+        int randomIndex = new Random().nextInt(quoteList.size());
+        return quoteList.get(randomIndex);
 
     }
 }
