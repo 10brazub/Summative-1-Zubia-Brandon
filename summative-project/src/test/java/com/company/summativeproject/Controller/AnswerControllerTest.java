@@ -26,12 +26,8 @@ public class AnswerControllerTest {
     @Test
     public void shouldReturnOkStatus() throws Exception {
 
-        Answer input = new Answer();
-        input.setId(1);
-        input.setQuestion("Will I need an umbrella today?");
-
-        String inputJson = mapper.writeValueAsString(input);
-
+        String question = "Will I need an umbrella today?";
+        String inputJson = mapper.writeValueAsString(question);
 
         mockMvc.perform(
                     post("/magic")
