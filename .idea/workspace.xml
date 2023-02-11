@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ab2aec-afd7-4f35-b430-4e7a2c62df4a" name="Changes" comment="updated imports">
+    <list default="true" id="a5ab2aec-afd7-4f35-b430-4e7a2c62df4a" name="Changes" comment="updated api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/AnswerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/DefinitionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/DefinitionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/QuoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Controller/QuoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/Model/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/SummativeProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/summative-project/src/main/java/com/company/summativeproject/SummativeProjectApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <recent name="com.company.summativeproject.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SummativeProjectApplication">
+  <component name="RunManager" selected="JUnit.AnswerControllerTest.shouldReturnOkStatus">
     <configuration name="SummativeProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.summativeproject.SummativeProjectApplication" />
       <module name="summative-project" />
@@ -78,6 +75,54 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnswerControllerTest.shouldReturnOkStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="summative-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.summativeproject.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.summativeproject.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.company.summativeproject.Controller.AnswerControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnOkStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefinitionControllerTest.shouldReturnDefinitionInCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="summative-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.summativeproject.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.summativeproject.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.company.summativeproject.Controller.DefinitionControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnDefinitionInCollection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoteControllerTest.shouldReturnOkStatus (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="summative-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.summativeproject.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.summativeproject.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.company.summativeproject.Controller.QuoteControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnOkStatus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerControllerTest.shouldReturnOkStatus" />
+        <item itemvalue="JUnit.DefinitionControllerTest.shouldReturnDefinitionInCollection" />
+        <item itemvalue="JUnit.QuoteControllerTest.shouldReturnOkStatus (1)" />
         <item itemvalue="Application.SummativeProjectApplication" />
         <item itemvalue="JUnit.QuoteControllerTest.shouldReturnOkStatus" />
       </list>
@@ -156,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675668045060</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated api">
+      <created>1676081197511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676081197512</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +244,7 @@
     <MESSAGE value="Added test for answer controller" />
     <MESSAGE value="Removed unneeded variable" />
     <MESSAGE value="updated imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated imports" />
+    <MESSAGE value="updated api" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated api" />
   </component>
 </project>

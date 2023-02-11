@@ -5,6 +5,8 @@ public class Definition {
     private String word;
     private String definition;
 
+    public Definition() {}
+
     public Definition(int id, String word, String definition) {
         this.id = id;
         this.word = word;
