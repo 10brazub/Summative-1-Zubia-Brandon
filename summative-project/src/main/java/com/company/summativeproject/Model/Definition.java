@@ -5,10 +5,10 @@ public class Definition {
     private String word;
     private String definition;
 
-    public Definition( int id,String word, String definition) {
+    public Definition(int id, String word, String definition) {
         this.id = id;
-        setWord(word);
-        setDefinition(definition);
+        this.word = word;
+        this.definition = definition;
     }
 
     public int getId() {
